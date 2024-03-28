@@ -2,9 +2,11 @@
   font-family: Inter;
   src: url("./Inter-Thin.ttf");
 }
-
+/* general styling */
 * {
   margin: 0;
+  font-weight: normal;
+  text-underline-offset: 2px;
 }
 
 body {
@@ -20,7 +22,7 @@ body {
   grid-template-rows: 40px calc(100vh - 40px);
   justify-items: center;
   width: 100%;
-  max-width: 1080px;
+  max-width: 768px;
 }
 
 header {
@@ -33,13 +35,23 @@ header {
 }
 
 main {
+  width: 100%;
   grid-row: 2;
   overflow: auto;
   padding: 5px;
 }
 
+h1 {
+  font-size: 1.7rem;
+}
+
 h2 {
   text-align: center;
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.1rem;
 }
 
 a {
@@ -57,12 +69,28 @@ span {
   text-underline-offset: 2px;
 }
 
+.read-more {
+  background-color: white;
+  border: none;
+  font-family: Inter;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* about section */
 #about {
   display: grid;
 }
 
-#about h1 {
-  justify-self: center;
+/* profile section */
+#profile {
+  display: grid;
+}
+
+#profile h1 {
+  text-align: center;
 }
 
 #profile-pic {
@@ -83,4 +111,19 @@ span {
 #description {
   text-align: center;
   font-size: 1.2rem;
+}
+
+.about-button {
+  justify-self: center;
+}
+
+/* tools and tech section */
+
+#tools-tech {
+  display: grid;
+}
+
+#tools-tech h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
 }
