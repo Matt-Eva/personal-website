@@ -4,6 +4,7 @@ body {
   margin: 0;
   /* color: white; */
   font-family: Optima;
+  height: 100vh;
 }
 
 header {
@@ -19,6 +20,7 @@ main {
   /* background-color: hsl(0, 0%, 20%); */
   overflow: auto;
   padding: 5px;
+  height: 100%;
 }
 
 h1 {
@@ -51,6 +53,13 @@ a {
 span {
   text-decoration: underline 1px;
   text-underline-offset: 2px;
+}
+
+#profile-pic {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #description {
