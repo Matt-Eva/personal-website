@@ -81,6 +81,10 @@ span {
   font-size: 0.9rem;
 }
 
+.hidden-content {
+  display: none;
+}
+
 /* about section */
 #about {
   display: grid;
