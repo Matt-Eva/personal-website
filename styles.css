@@ -1,48 +1,45 @@
+@font-face {
+  font-family: Inter;
+  src: url("./Inter-Thin.ttf");
+}
+
+* {
+  margin: 0;
+}
+
 body {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
   display: grid;
   grid-template-rows: 40px calc(100vh - 40px);
-  margin: 0;
-  /* color: white; */
-  font-family: Optima;
-  height: 100vh;
+  justify-items: center;
+  width: 100%;
+  max-width: 1080px;
 }
 
 header {
+  width: 100%;
   grid-row: 1;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5%;
   align-items: center;
-  /* background-color: hsl(0, 0%, 25%); */
 }
 
 main {
   grid-row: 2;
-  /* background-color: hsl(0, 0%, 20%); */
   overflow: auto;
   padding: 5px;
-  height: 100%;
-}
-
-h1 {
-  margin: 0;
-  text-align: center;
 }
 
 h2 {
-  margin: 10px 0 0 0;
   text-align: center;
-}
-
-h3 {
-  font-weight: normal;
-  text-decoration: underline 1px;
-  margin: 15px 0 10px 0;
-  text-align: center;
-  text-underline-offset: 3px;
-}
-
-p {
-  margin: 8px;
 }
 
 a {
@@ -50,18 +47,40 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+}
+
 span {
   text-decoration: underline 1px;
   text-underline-offset: 2px;
 }
 
+#about {
+  display: grid;
+}
+
+#about h1 {
+  justify-self: center;
+}
+
 #profile-pic {
-  height: 100px;
-  width: 100px;
+  justify-self: center;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
 
+@media (min-width: 480px) and (min-height: 480px) {
+  #profile-pic {
+    height: 300px;
+    width: 300px;
+  }
+}
+
 #description {
   text-align: center;
+  font-size: 1.2rem;
 }
