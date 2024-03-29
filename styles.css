@@ -10,6 +10,7 @@
   text-underline-offset: 2px;
   font-size: 0.9rem;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -49,6 +50,10 @@ h3 {
   font-size: 1.1rem;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 a {
   color: black;
 }
@@ -59,7 +64,7 @@ span {
 }
 
 .read-more {
-  background-color: white;
+  background-color: hsl(200, 100%, 99%);
   border: none;
   font-family: Inter;
   text-decoration: underline;
@@ -166,10 +171,19 @@ footer {
 /* tools and tech section */
 
 #tools-tech {
+  margin-top: 5px;
   display: grid;
+}
+
+#tools-tech h2 {
+  margin-bottom: 10px;
 }
 
 #tools-tech h3 {
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
+}
+
+#tools-tech p {
+  margin: 6px 10px 15px 10px;
 }
