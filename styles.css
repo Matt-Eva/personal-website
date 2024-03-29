@@ -172,7 +172,6 @@ footer {
 
 #tools-tech {
   margin-top: 5px;
-  display: grid;
 }
 
 #tools-tech h2 {
@@ -186,4 +185,14 @@ footer {
 
 #tools-tech p {
   margin: 6px 10px 15px 10px;
+}
+
+/* Topics of interest */
+
+#topics {
+  margin-bottom: 15px;
+}
+
+#topics h2 {
+  margin-bottom: 10px;
 }
