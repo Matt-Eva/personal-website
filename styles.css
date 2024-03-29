@@ -71,6 +71,7 @@ span {
   text-decoration-thickness: 0.5px;
   cursor: pointer;
   font-size: 0.9rem;
+  padding: 0px;
 }
 
 .hidden-content {
@@ -195,4 +196,31 @@ footer {
 
 #topics h2 {
   margin-bottom: 10px;
+}
+
+#topics p {
+  margin: 0px 10px;
+}
+
+/* Work experience */
+
+#experience {
+  margin-bottom: 15px;
+}
+
+#experience h2 {
+  margin-bottom: 10px;
+}
+
+#experience h3 {
+  margin-top: 10px;
+}
+
+#experience button {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#experience section {
+  margin: 15px 10px 20px 10px;
 }
