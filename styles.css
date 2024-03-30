@@ -57,6 +57,9 @@ h4 {
 
 p {
   line-height: 1.5rem;
+  background-color: hsl(200, 100%, 97%);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 a {
@@ -172,6 +175,7 @@ footer {
 #description {
   text-align: center;
   font-size: 1.2rem;
+  background-color: hsl(200, 100%, 99%);
 }
 
 .about-button {
@@ -228,10 +232,12 @@ footer {
 }
 
 #projects article {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 10px 10px 0px 10px;
+  padding: 5px;
+  border-radius: 5px;
   display: grid;
   grid-template-rows: 1.5rem 1.5rem 1fr;
+  background-color: hsl(200, 100%, 97%);
 }
 
 #projects article section {
@@ -251,11 +257,13 @@ footer {
 
 #projects article button {
   justify-self: start;
+  background-color: hsl(200, 100%, 97%);
 }
 
 #projects article p {
   margin-top: 10px;
   margin-right: 10px;
+  padding: 0px;
 }
 
 /* Blogs */
