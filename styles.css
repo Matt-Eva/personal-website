@@ -43,10 +43,15 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  margin: 30px 0px 15px 0px;
 }
 
 h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
   font-size: 1.1rem;
 }
 
@@ -58,24 +63,28 @@ a {
   color: black;
 }
 
-span {
-  text-decoration: underline 1px;
-  text-underline-offset: 2px;
-}
-
 .read-more {
   background-color: hsl(200, 100%, 99%);
   border: none;
   font-family: Inter;
-  text-decoration: underline;
-  text-decoration-thickness: 0.5px;
   cursor: pointer;
   font-size: 0.9rem;
   padding: 0px;
 }
 
+.read-more:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+}
+
 .hidden-content {
   display: none;
+}
+
+.revealed-content {
+  background-color: hsl(200, 100%, 97%);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 /* header / footer / nav styles */
@@ -122,7 +131,7 @@ footer {
 
 .nav-link:hover {
   text-decoration: underline;
-  text-decoration-thickness: 0.5px;
+  text-decoration-thickness: 0.1px;
 }
 
 /* about section */
@@ -175,15 +184,6 @@ footer {
   margin-top: 5px;
 }
 
-#tools-tech h2 {
-  margin-bottom: 10px;
-}
-
-#tools-tech h3 {
-  text-decoration: underline;
-  text-decoration-thickness: 0.5px;
-}
-
 #tools-tech p {
   margin: 6px 10px 15px 10px;
 }
@@ -192,10 +192,6 @@ footer {
 
 #topics {
   margin-bottom: 15px;
-}
-
-#topics h2 {
-  margin-bottom: 10px;
 }
 
 #topics p {
@@ -208,12 +204,8 @@ footer {
   margin-bottom: 15px;
 }
 
-#experience h2 {
-  margin-bottom: 10px;
-}
-
-#experience h3 {
-  margin-top: 10px;
+#experience article {
+  margin: 0px 0px 15px 0px;
 }
 
 #experience button {
@@ -223,4 +215,52 @@ footer {
 
 #experience section {
   margin: 15px 10px 20px 10px;
+}
+
+/* Project section */
+
+#projects {
+  margin-bottom: 15px;
+}
+
+#projects section {
+  margin-bottom: 15px;
+}
+
+#projects article {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-rows: 1.5rem 1.5rem 1fr;
+}
+
+#projects article section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 10px;
+}
+
+#projects article a {
+  text-decoration: none;
+}
+
+#projects article a:hover {
+  text-decoration: underline;
+}
+
+#projects article button {
+  justify-self: start;
+}
+
+#projects article p {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* Blogs */
+
+#blogs p {
+  text-align: center;
+  font-style: italic;
 }
