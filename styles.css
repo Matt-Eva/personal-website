@@ -14,27 +14,28 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 40px calc(100vh - 80px) 40px;
   font-family: Inter;
   height: 100vh;
   width: 100vw;
+  background-color: hsl(200, 100%, 99%);
 }
 
 #container {
-  display: grid;
-  grid-template-rows: 40px calc(100vh - 80px) 40px;
-  justify-items: center;
   width: 100%;
-  background-color: hsl(200, 100%, 99%);
+  justify-self: center;
+  grid-row: 2;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
 }
 
 main {
   width: 100%;
   max-width: 768px;
-  grid-row: 2;
-  overflow: auto;
   padding: 5px;
+  justify-self: center;
 }
 
 h1 {
@@ -56,6 +57,7 @@ h4 {
 }
 
 p {
+  font-size: 1rem;
   line-height: 1.5rem;
   background-color: hsl(200, 100%, 97%);
   border-radius: 5px;
@@ -180,6 +182,22 @@ footer {
 
 .about-button {
   justify-self: center;
+}
+
+#bio p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin: 10px 0px;
+}
+
+#hire-me ul {
+  padding: 0px 5px 0px 20px;
+}
+
+#hire-me li {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin: 10px 0px;
 }
 
 /* tools and tech section */

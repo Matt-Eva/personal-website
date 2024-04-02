@@ -8,15 +8,15 @@
     <script defer type="text/javascript" src="index.js"></script>
   </head>
   <body>
+    <header>
+      <nav id="header-nav">
+        <a href="#about" class="nav-link">about</a>
+        <a href="#experience" class="nav-link">experience</a>
+        <a href="#projects" class="nav-link">projects</a>
+        <a href="#blogs" class="nav-link">blogs</a>
+      </nav>
+    </header>
     <div id="container">
-      <header>
-        <nav id="header-nav">
-          <a href="#about" class="nav-link">about</a>
-          <a href="#experience" class="nav-link">experience</a>
-          <a href="#projects" class="nav-link">projects</a>
-          <a href="#blogs" class="nav-link">blogs</a>
-        </nav>
-      </header>
       <main>
         <section id="about">
           <section id="profile">
@@ -24,13 +24,121 @@
             <h1>Matt Eva</h1>
             <p id="description">Software Engineer and Technical Writer</p>
             <button class="read-more about-button">about me</button>
-            <p id="bio" class="hidden-content revealed-content">Example bio</p>
+            <div id="bio" class="hidden-content revealed-content">
+              <p>
+                Hi there! I’m Matt Eva. I’m a career changer from editing and
+                content writing to software engineering and technical writing.
+              </p>
+              <p>
+                Throughout my life, I’ve straddled the bridge between
+                “left-brain” and “right-brain” pursuits and career aspirations.
+                I started my college journey as a Physics major, but graduated
+                with a B.A. in English Literature.
+              </p>
+              <p>
+                After dedicating my early twenties to my dream of writing
+                fiction, I found myself missing the satisfaction of concrete
+                problem solving and analytical thinking. I started teaching
+                myself to code, motivated by the desire to build my own websites
+                and applications, and found programming to be the perfect
+                synthesis of creative system design and analytical problem
+                solving.
+              </p>
+              <p>
+                At that time, I was working as a marketing copywriter, content
+                writer, and editor for various tech companies located in the San
+                Francisco Bay Area. After discovering my love for programming, I
+                realized I would much rather build and design tools and
+                technologies than write about them! At that point, I decided to
+                make a full career transition from writing to programming, and
+                enrolled in Flatiron School’s Full Stack Software Engineering
+                program.
+              </p>
+              <p>
+                Toward the end of the program, my instructor suggested I apply
+                for a teaching position at Flatiron School itself, after
+                noticing how I helped my peers on our journey together through
+                the program. I had always wanted to try teaching, and wanted to
+                continue my own programming education, so I applied and was
+                hired immediately after I graduated.
+              </p>
+              <p>
+                As it turns out, I absolutely loved teaching! It gave me an
+                opportunity to meet so many different people from so many walks
+                of life, and was both humbling and inspiring. Few experiences in
+                life have been as rewarding as seeing students I taught go on to
+                succeed in the industry and work as software engineers.
+              </p>
+
+              <p>
+                While teaching was deeply rewarding, I knew I would one day move
+                on to work as a fully-fledged software engineer. And while the
+                role was great for honing foundational programming principles,
+                there was only so much I was able to learn on the job. I spent
+                many hours outside of work studying, researching, and coming up
+                with supplemental content to teach to students, but I was and
+                still am excited to do more hands-on learning as an engineer.
+              </p>
+
+              <p>
+                When I was laid off from Flatiron School, I saw it as a great
+                opportunity to improve my own skills, build projects that I’m
+                passionate about, and move on to the next step in my career and
+                my life. I’ve learned a ton over the last few months, and am
+                excited to continue my growth in my next role!
+              </p>
+              <p>
+                Outside of work and programming, I still like to write fiction
+                and read. I also love playing music, staying fit and active,
+                meditating, and exploring new hobbies, activities, and topics.
+                There is so much to do and so many things to learn! I still plan
+                on writing my own novels, and am currently working on building
+                my own suite of online platforms, which I hope to someday run as
+                my own businesses. But in the meantime, I’m just excited to keep
+                coding, learning, and trying new things!
+              </p>
+            </div>
+
             <button class="read-more about-button">
               why you should hire me
             </button>
-            <p id="hire-me" class="hidden-content revealed-content">
-              example hire me
-            </p>
+            <div id="hire-me" class="hidden-content revealed-content">
+              <ul>
+                <li>I work hard, learn fast, and am highly adaptable.</li>
+                <li>
+                  I am diligent, conscientious, and a clear, effective
+                  communicator.
+                </li>
+                <li>I have an immense desire to learn and grow.</li>
+                <li>
+                  I am patient and compassionate, and supportive of my peers and
+                  colleagues.
+                </li>
+                <li>
+                  I take initiative, ask questions, and like having things to do
+                  and projects to work on.
+                </li>
+                <li>
+                  I value differences in perspective, opinion, and experience.
+                </li>
+                <li>
+                  I enjoy working both independently and in collaborative
+                  environments.
+                </li>
+                <li>
+                  I like writing technical documentation and am passionate about
+                  good documentation. (Yes, really!)
+                </li>
+                <li>
+                  I have big goals and aspirations that fuel my passion for
+                  programming and my hunger for learning and growth.
+                </li>
+                <li>
+                  I'm friendly and I like people :). Don't be afraid to reach
+                  out or say hi, even if you don't have a job for me!
+                </li>
+              </ul>
+            </div>
           </section>
           <section id="tools-tech">
             <h2>Tools and Technologies</h2>
@@ -124,19 +232,19 @@
           <p>Coming soon!</p>
         </section>
       </main>
-      <footer>
-        <nav id="footer-nav">
-          <a
-            class="nav-link"
-            href="https://www.linkedin.com/in/mattheweva/"
-            target="_blank"
-            >LinkedIn</a
-          >
-          <a class="nav-link" href="https://github.com/Matt-Eva" target="_blank"
-            >GitHub</a
-          >
-        </nav>
-      </footer>
     </div>
+    <footer>
+      <nav id="footer-nav">
+        <a
+          class="nav-link"
+          href="https://www.linkedin.com/in/mattheweva/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a class="nav-link" href="https://github.com/Matt-Eva" target="_blank"
+          >GitHub</a
+        >
+      </nav>
+    </footer>
   </body>
 </html>
