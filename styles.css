@@ -8,7 +8,6 @@
   margin: 0;
   font-weight: normal;
   text-underline-offset: 2px;
-  font-size: 0.9rem;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -39,7 +38,7 @@ main {
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 h2 {
@@ -49,15 +48,15 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
-}
-
-h4 {
   font-size: 1.1rem;
 }
 
-p {
+h4 {
   font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
   line-height: 1.5rem;
   background-color: hsl(200, 100%, 97%);
   border-radius: 5px;
@@ -66,6 +65,17 @@ p {
 
 a {
   color: black;
+  font-size: 0.8rem;
+}
+
+ul {
+  padding: 0px 5px 0px 20px;
+}
+
+li {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin: 10px 0px;
 }
 
 .read-more {
@@ -73,7 +83,7 @@ a {
   border: none;
   font-family: Inter;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 0px;
 }
 
@@ -182,11 +192,10 @@ footer {
 
 .about-button {
   justify-self: center;
+  font-size: 0.9rem;
 }
 
 #bio p {
-  font-size: 1rem;
-  line-height: 1.6rem;
   margin: 10px 0px;
 }
 
@@ -195,8 +204,6 @@ footer {
 }
 
 #hire-me li {
-  font-size: 1rem;
-  line-height: 1.6rem;
   margin: 10px 0px;
 }
 
@@ -206,8 +213,12 @@ footer {
   margin-top: 5px;
 }
 
+#tools-tech article {
+  margin: 20px 0px;
+}
+
 #tools-tech p {
-  margin: 6px 10px 15px 10px;
+  margin: 6px 10px 0px 10px;
 }
 
 /* Topics of interest */
@@ -239,6 +250,14 @@ footer {
   margin: 15px 10px 20px 10px;
 }
 
+#experience ul {
+  padding-left: 20px;
+}
+
+#experience li {
+  margin: 10px 5px;
+}
+
 /* Project section */
 
 #projects {
@@ -256,6 +275,10 @@ footer {
   display: grid;
   grid-template-rows: 1.5rem 1.5rem 1fr;
   background-color: hsl(200, 100%, 97%);
+}
+
+#projects article h4 {
+  text-decoration: underline;
 }
 
 #projects article section {
