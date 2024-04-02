@@ -239,11 +239,15 @@ footer {
 
 #experience article {
   margin: 0px 0px 15px 0px;
+  background-color: hsl(200, 100%, 97%);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #experience button {
   margin-top: 5px;
   margin-left: 10px;
+  background-color: hsl(200, 100%, 97%);
 }
 
 #experience section {
