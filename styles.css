@@ -207,6 +207,12 @@ footer {
   margin: 10px 0px;
 }
 
+#student-anonymity {
+  background-color: hsl(200, 100%, 99%);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
 /* tools and tech section */
 
 #tools-tech {
