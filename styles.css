@@ -207,6 +207,10 @@ footer {
   margin: 10px 0px;
 }
 
+#testimonials p {
+  margin: 15px 0px;
+}
+
 #student-anonymity {
   background-color: hsl(200, 100%, 99%);
   text-align: center;
