@@ -269,7 +269,7 @@
             <h2>Tools and Technologies</h2>
             <article>
               <h3>Programming Languages</h3>
-              <p>JavaScript / TypeScript, Python, Ruby.</p>
+              <p>Go, JavaScript / TypeScript, Python, Ruby.</p>
             </article>
             <article>
               <h3>Frontend Tools and Frameworks</h3>
@@ -281,9 +281,7 @@
             </article>
             <article>
               <h3>Databases</h3>
-              <p>
-                Relational Databases (SQL), Neo4j (Cypher), MongoDB, Cassandra
-              </p>
+              <p>Relational Databases (SQL), Neo4j (Cypher), MongoDB</p>
             </article>
             <article>
               <h3>Developer Tools</h3>
@@ -297,9 +295,8 @@
           <section id="topics">
             <h2>Topics of Interest</h2>
             <p>
-              System Architecture and Design, Scalability, Distributed Systems,
-              Databases, Database Modeling and Design, Database Sharding,
-              Database Clustering, Horizontal Scaling.
+              Full Stack Development, System Architecture and Design,
+              Scalability, Databases, Data Modeling, Accessibility.
             </p>
           </section>
         </section>
@@ -383,7 +380,7 @@
         <section id="projects">
           <h2>Projects</h2>
           <section>
-            <h3>Main</h3>
+            <!-- <h3>Main</h3> -->
             <article class="project-card">
               <section>
                 <h4>Connect:</h4>
@@ -416,40 +413,68 @@
                 </ul>
               </div>
             </article>
-          </section>
-          <section>
-            <h3>Sandbox</h3>
             <article class="project-card">
               <section>
-                <h4>FreeCreate (Beta):</h4>
+                <h4>FreeCreate:</h4>
                 <a
-                  href="https://github.com/Matt-Eva/FreeCreate-Beta"
+                  href="https://github.com/Matt-Eva/freecreate-go"
                   target="_blank"
-                  >GitHub</a
+                  >Backend</a
+                >
+                <a
+                  href="https://github.com/Matt-Eva/freecreate-react"
+                  target="_blank"
+                  >Frontend</a
                 >
               </section>
               <button class="read-more">read more</button>
               <div class="hidden-content revealed-content">
                 <ul>
                   <li>
-                    FreeCreate is a content sharing platform for all forms of
-                    media.
+                    FreeCreate is a hosting platform for fiction writers. It is
+                    currently under active development.
                   </li>
                   <li>
-                    This version is a prototype built with Ruby on Rails,
-                    PostgreSQL, React, React-Router, Redux-Toolkit, Bootstrap,
-                    CSS, and Cloudinary.
+                    It's being built with Go, TypeScript, React, Redux,
+                    React-Router, Neo4j, and MongoDB.
                   </li>
                   <li>
-                    The future version of FreeCreate will focus primarily on
-                    hosting writing first, and is being designed with
-                    scalability as a top priority. It's currently under
-                    development!
+                    Features will include:
+                    <ul>
+                      <li>A custom built, browser based rich text editor.</li>
+                      <li>
+                        An ad-free, direct donation business model that enables
+                        one-time and recurring donations to creators.
+                      </li>
+                      <li>
+                        A content search system that leverages Neo4j's graph
+                        data model to provide fine-tuned search capabilities.
+                      </li>
+                      <li>
+                        A ranking algorithm that presents content based on user
+                        defined value - donations, likes, library additions,
+                        reads, etc. Different types of user interaction have
+                        different ranking weights. The algorithm also takes into
+                        account both overall rank and rank to view ratio
+                        (relative rank).
+                      </li>
+                      <li>
+                        Scalable storage for written content via MongoDB
+                        sharding.
+                      </li>
+                      <li>
+                        A caching layer for frequently accessed content and
+                        queries.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
             </article>
           </section>
+          <!-- <section>
+            <h3>Sandbox</h3>
+          </section> -->
         </section>
         <section id="blogs">
           <h2>Blogs</h2>
