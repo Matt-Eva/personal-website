@@ -13,7 +13,7 @@
         <a href="#about" class="nav-link">about</a>
         <a href="#experience" class="nav-link">experience</a>
         <a href="#projects" class="nav-link">projects</a>
-        <a href="#writing" class="nav-link">writing</a>
+        <!-- <a href="#writing" class="nav-link">writing</a> -->
         <a href="#testimonials" class="nav-link">testimonials</a>
       </nav>
     </header>
@@ -85,18 +85,15 @@
                 When I was laid off from Flatiron School, I saw it as a great
                 opportunity to improve my own skills, build projects that I’m
                 passionate about, and move on to the next step in my career and
-                my life. I’ve learned a ton over the last few months, and am
-                excited to continue my growth in my next role!
+                my life. I’ve learned a ton, and am excited to continue my
+                growth in my next role!
               </p>
               <p>
                 Outside of work and programming, I still like to write fiction
                 and read. I also love playing music, staying fit and active,
                 meditating, and exploring new hobbies, activities, and topics.
-                There is so much to do and so many things to learn! I still plan
-                on writing my own novels, and am currently working on building
-                my own suite of online platforms, which I hope to someday run as
-                my own businesses. But in the meantime, I’m just excited to keep
-                coding, learning, and trying new things!
+                There is so much to do and so many things to learn! I’m excited
+                to keep coding, learning, and trying new things!
               </p>
             </div>
 
@@ -148,24 +145,42 @@
               <p>Go, JavaScript / TypeScript, Python, Ruby.</p>
             </article>
             <article>
-              <h3>Frontend Tools and Frameworks</h3>
-              <p>HTML, CSS, React, Redux, React-Router.</p>
+              <h3>Frontend</h3>
+              <p>
+                HTML, CSS, Tailwind CSS, React, Redux, React-Router, Progressive
+                Web Apps.
+              </p>
             </article>
             <article>
-              <h3>Backend Tools and Frameworks</h3>
-              <p>Nodejs, Express, Flask, Ruby on Rails.</p>
+              <h3>Backend</h3>
+              <p>
+                Gorilla, Nodejs, Express, Flask, Ruby on Rails, REST APIs,
+                Socket.io.
+              </p>
             </article>
             <article>
               <h3>Databases</h3>
-              <p>Relational Databases (SQL), Neo4j (Cypher), MongoDB.</p>
+              <p>
+                Relational Databases (SQL), Neo4j (Cypher), MongoDB, Cassandra
+                (CQL).
+              </p>
             </article>
             <article>
               <h3>Developer Tools</h3>
-              <p>Shell / Terminal, Git / GitHub.</p>
+              <p>Shell / Terminal, Git / GitHub, Unix (Mac), Markdown.</p>
+            </article>
+            <article>
+              <h3>Paradigms / Architecture / Protocols</h3>
+              <p>
+                Object-Oriented Programming, REST APIs, CRUD actions, MVC
+                Architecture, Single Page Applications, Client-Side Routing,
+                Responsive / Mobile-First Design, Database Sharding, WebSockets,
+                HTTP.
+              </p>
             </article>
             <article>
               <h3>Learning</h3>
-              <p>Docker, Java, Go.</p>
+              <p>Go, Docker, Redis, Linux, Java.</p>
             </article>
           </section>
           <section id="topics">
@@ -173,7 +188,7 @@
             <p>
               Full Stack Development, System Architecture and Design,
               Scalability, Distributed Systems, Cloud Architecture, Databases,
-              Data Modeling, Accessibility, User Centered Design.
+              Data Modeling, Accessibility, User-Centered Design.
             </p>
           </section>
         </section>
@@ -266,9 +281,9 @@
                   target="_blank"
                   >GitHub</a
                 >
-                <a href="https://connect-9ekd.onrender.com/" target="_blank"
+                <!-- <a href="https://connect-9ekd.onrender.com/" target="_blank"
                   >Website</a
-                >
+                > -->
               </section>
               <button class="read-more">read more</button>
               <div class="hidden-content revealed-content">
@@ -282,10 +297,34 @@
                     React-Router, Redux, Socket.io, CSS, Express-Session, Redis,
                     Neo4j, MongoDB, and Cassandra.
                   </li>
-                  <li>It's currently deployed on Render.</li>
                   <li>
-                    It's set up as a Progressive Web App. It's installable, and
-                    has notifications enabled.
+                    Features Include:
+                    <ul>
+                      <li>
+                        Real time private chat, both one-on-one and in custom,
+                        user-made groups.
+                      </li>
+                      <li>
+                        Search based on network proximity via Neo4j's graph data
+                        model (second degree connections are presented first).
+                      </li>
+                      <li>
+                        Efficient loading of user feed via Neo4j's graph data
+                        model.
+                      </li>
+                      <li>
+                        Scalable storage of messages via Cassandra and user
+                        posts via MongoDB.
+                      </li>
+                      <li>
+                        A custom, rich text editor that outputs JSON for easy
+                        storage in MongoDB.
+                      </li>
+                      <li>
+                        Progressive Web App features, including installability
+                        and push notifications.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -367,9 +406,13 @@
                 <ul>
                   <li>
                     A browser-based rich text editor for formatting text and
-                    embedding images and links. Custom built with JavaScript.
-                    Currently under active development.
+                    embedding images and links.
                   </li>
+                  <li>Custom built with JavaScript.</li>
+                  <li>
+                    Outputs JSON formatted data for easy storage and parsing.
+                  </li>
+                  <li>Currently under active development.</li>
                 </ul>
               </div>
             </article>
@@ -378,7 +421,7 @@
             <h3>Sandbox</h3>
           </section> -->
         </section>
-        <section id="writing">
+        <!-- <section id="writing">
           <h2>Writing Samples</h2>
           <section class="section-blue">
             <h3>Flatiron Lessons</h3>
@@ -397,7 +440,7 @@
           <section class="section-blue">
             <h3>Technical Blogs</h3>
           </section>
-        </section>
+        </section> -->
         <section id="testimonials">
           <h2>Student Testimonials</h2>
           <div id="testimonials">
@@ -411,7 +454,7 @@
               "Matt Eva is the best possible Instructor I could have worked with
               in phase 1. He is an excellent teacher. He always started at
               ground zero with the material, which was crucial for our learning
-              process.""
+              process."
             </p>
             <p>
               "I loved working with Matt. He does an amazing job breaking down
