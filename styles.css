@@ -3,6 +3,10 @@
   src: url("./Inter-ExtraLight.ttf");
 }
 
+.section-blue {
+  background-color: hsl(200, 100%, 97%);
+}
+
 /* general styling */
 * {
   margin: 0;
