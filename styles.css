@@ -301,10 +301,6 @@ footer {
   background-color: var(--content-blue);
 }
 
-#projects article h4 {
-  /* text-decoration: underline; */
-}
-
 #projects article section {
   display: flex;
   flex-wrap: wrap;
