@@ -226,10 +226,6 @@ footer {
   margin: 10px 0px;
 }
 
-#testimonials p {
-  margin: 15px 0px;
-}
-
 #student-anonymity {
   text-align: center;
   font-size: 0.8rem;
@@ -342,4 +338,13 @@ footer {
 #blogs p {
   text-align: center;
   font-style: italic;
+}
+
+/* Testimonials */
+#testimonials {
+  padding-bottom: 15px;
+}
+
+#testimonials p {
+  margin: 15px 0px;
 }
