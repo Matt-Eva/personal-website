@@ -15,13 +15,16 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+html {
+  height: 100%;
+}
 
 body {
   display: grid;
   grid-template-rows: 40px calc(100vh - 80px) 40px;
   font-family: Inter;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: hsl(200, 100%, 99%);
 }
 
@@ -30,6 +33,7 @@ body {
   justify-self: center;
   grid-row: 2;
   overflow: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
