@@ -16,6 +16,7 @@ strong {
 * {
   margin: 0;
   font-weight: normal;
+  font-weight: 200;
   text-underline-offset: 2px;
   box-sizing: border-box;
   scroll-behavior: smooth;
