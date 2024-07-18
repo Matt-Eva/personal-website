@@ -9,9 +9,12 @@
   border: dashed 1px black;
 }
 
+strong {
+  font-weight: 500;
+}
+
 * {
   margin: 0;
-  font-weight: normal;
   text-underline-offset: 2px;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -50,20 +53,24 @@ main {
 
 h1 {
   font-size: 1.6rem;
+  font-weight: 200;
 }
 
 h2 {
   text-align: center;
   font-size: 1.5rem;
+  font-weight: 200;
   margin: 30px 0px 15px 0px;
 }
 
 h3 {
   font-size: 1.1rem;
+  font-weight: 200;
 }
 
 h4 {
   font-size: 1rem;
+  font-weight: 200;
 }
 
 p {
