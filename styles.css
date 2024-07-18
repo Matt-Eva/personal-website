@@ -3,11 +3,12 @@
   src: url("./Inter-ExtraLight.ttf");
 }
 
-.section-blue {
-  background-color: hsl(200, 100%, 97%);
+/* general styling */
+
+.border {
+  border: dashed 1px black;
 }
 
-/* general styling */
 * {
   margin: 0;
   font-weight: normal;
@@ -25,7 +26,9 @@ body {
   font-family: Inter;
   height: 100%;
   width: 100%;
-  background-color: hsl(200, 100%, 99%);
+  background-color: hsl(200, 100%, 100%);
+  --nav-blue: hsl(198, 100%, 90%);
+  --content-blue: hsl(198, 100%, 100%);
 }
 
 #container {
@@ -66,7 +69,7 @@ h4 {
 p {
   font-size: 0.9rem;
   line-height: 1.5rem;
-  background-color: hsl(200, 100%, 97%);
+  background-color: var(--content-blue);
   border-radius: 5px;
   padding: 5px;
 }
@@ -87,7 +90,7 @@ li {
 }
 
 .read-more {
-  background-color: hsl(200, 100%, 99%);
+  background-color: hsl(200, 100%, 100%);
   border: none;
   font-family: Inter;
   cursor: pointer;
@@ -105,7 +108,7 @@ li {
 }
 
 .revealed-content {
-  background-color: hsl(200, 100%, 97%);
+  background-color: var(--content-blue);
   border-radius: 5px;
   padding: 5px;
 }
@@ -117,7 +120,7 @@ header {
   justify-content: center;
   width: 100%;
   grid-row: 1;
-  background-color: hsl(200, 100%, 95%);
+  background-color: var(--nav-blue);
 }
 
 #header-nav {
@@ -135,7 +138,7 @@ footer {
   justify-content: center;
   width: 100%;
   grid-row: 3;
-  background-color: hsl(200, 100%, 95%);
+  background-color: var(--nav-blue);
 }
 
 #footer-nav {
@@ -145,7 +148,7 @@ footer {
   justify-content: center;
   gap: 25%;
   align-items: center;
-  background-color: hsl(200, 100%, 95%);
+  background-color: var(--nav-blue);
 }
 
 .nav-link {
@@ -195,7 +198,6 @@ footer {
 #description {
   text-align: center;
   font-size: 1.2rem;
-  background-color: hsl(200, 100%, 99%);
 }
 
 .about-button {
@@ -220,7 +222,6 @@ footer {
 }
 
 #student-anonymity {
-  background-color: hsl(200, 100%, 99%);
   text-align: center;
   font-size: 0.8rem;
 }
@@ -258,7 +259,7 @@ footer {
 
 #experience article {
   margin: 0px 0px 15px 0px;
-  background-color: hsl(200, 100%, 97%);
+  background-color: var(--content-blue);
   padding: 5px;
   border-radius: 5px;
 }
@@ -266,7 +267,7 @@ footer {
 #experience button {
   margin-top: 5px;
   margin-left: 10px;
-  background-color: hsl(200, 100%, 97%);
+  background-color: var(--content-blue);
 }
 
 #experience section {
@@ -297,11 +298,11 @@ footer {
   border-radius: 5px;
   display: grid;
   grid-template-rows: 1.5rem 1.5rem 1fr;
-  background-color: hsl(200, 100%, 97%);
+  background-color: var(--content-blue);
 }
 
 #projects article h4 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 #projects article section {
@@ -313,6 +314,7 @@ footer {
 
 #projects article a {
   text-decoration: none;
+  padding-bottom: 1px;
 }
 
 #projects article a:hover {
@@ -321,7 +323,7 @@ footer {
 
 #projects article button {
   justify-self: start;
-  background-color: hsl(200, 100%, 97%);
+  background-color: var(--content-blue);
 }
 
 #projects article p {
